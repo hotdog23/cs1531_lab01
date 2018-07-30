@@ -1,10 +1,9 @@
 strings = ['This', 'list', 'is', 'now', 'all', 'together']
-sentence = ''
+sentence = ""
 
-i = 0
+
 for i in strings:
-	print (i)
-	print (' ')
+	sentence += i
 
-
+sentence
 print(' '.join(strings))
